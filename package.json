@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:simple:angular2":"webpack-dev-server --progress --colors --watch --hot --inline --port 9090 --config webpack.config.simple.angular2.js",
     "start:simple:react": "webpack-dev-server --progress --colors --watch --hot --inline --port 9090 --config webpack.config.simple.react.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +25,21 @@
     "@types/react": "^0.14.41",
     "@types/react-dom": "^0.14.18",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
+    "angular-in-memory-web-api": "~0.1.5",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
   }
 }
